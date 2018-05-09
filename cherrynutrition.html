@@ -13,59 +13,24 @@
         <link rel="stylesheet" href="cherrycokestyle.css"/>
     </head>
     <body>
+	<style>
+            p { background-color:#720D34;
+                margin:20px;
+                padding:30px;
+                border: 5pt;
+            }
+        </style>
 
-        <h1 class="bobRoss">Coca-Cola Cherry</h1>
+        <h1 class="cherry">Coca-Cola Cherry</h1>
 
-        <div class="bobRoss">
-            <p>
-                Here you will fine all sorts of interesting nutritional information about Coca-Cola Cherry Coke!
-            </p>
+        <div class="cherry">
+            <h2>Here you will fine all sorts of interesting nutritional information about Coca-Cola Cherry Coke!</h2>
+            
         </div>
-
-        <div>
+        
+		<div class="cherry">
             <img id="hemingwayCat" src="images/Nutrition.png" alt="Nutritional Information"/>
             <a href="https://www.coca-colaproductfacts.com/en/products/coca-cola-cherry-zero/original/12-oz/">Find out more!</a>
         </div>
-
-        <div class="cherry">
-            <form class="myCoolForm" method="POST" action="Congrats.html">
-                some text: <input type="text" name="text1"/>
-                <br><br>
-                a color: <input type="color" name="color1"/>
-                <br><br>
-                a number: <input type="number" name="num1"/>
-                <br><br>
-                a text area: <textarea name="text1" cols="30" rows="10">your text here</textarea>
-                <br><br>
-                a dropdown: 
-                <br>
-                <select name="penguins">
-                        <option value="emperor" selected>Emperor</option>
-                        <option value="galapagos" >Galapagos</option>
-                        <option value="macaroni" >Macaroni</option>
-                </select>
-                <br>
-                <br>
-                radio buttons: <br>
-                <input type="radio" name="penguinType" value="emperor" checked>Emperor</input><br>
-                <input type="radio" name="penguinType" value="galapagos" >Galapagos</input><br>
-                <input type="radio" name="penguinType" value="macaroni" >Macaroni</input>
-                <br>
-                <br>
-                
-                <!--new from html5-->
-                <input list="browsers"/>
-                <datalist id="browsers">
-                    <option value="chrome"/>
-                    <option value="firefox"/>
-                    <option value="tor"/>
-                </datalist>
-
-                <!--submits the form data to the handler-->
-                <!--if a form element does not have a name, it will not be submitted-->
-                <input type="submit" value="Submit"/>
-            </form>
-        </div>
-
-    </body>
+   </body>
 </html>
