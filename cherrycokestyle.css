@@ -3,7 +3,7 @@ div {
 	
 }
 
-#cherry {
+.cherry {
 	display:block;
 	padding:40px;
 	margin:40px;
@@ -20,4 +20,11 @@ div {
 	margin:40px;
 	border-style:solid;
 	border-color:#720D34;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
